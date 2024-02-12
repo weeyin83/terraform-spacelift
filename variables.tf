@@ -23,18 +23,18 @@ variable "tag_environment_name" {
 }
 
 
-variable "client_id" {
+variable "arm_client_id" {
   type = string
 }
 
-variable "client_secret" {
+variable "arm_client_secret" {
   type = string
 }
 
-variable "subscription_id" {
+variable "arm_subscription_id" {
   type = string
 }
 
-variable "tenant_id" {
+variable "arm_tenant_id" {
   type = string
 }
