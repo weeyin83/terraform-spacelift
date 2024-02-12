@@ -9,7 +9,7 @@ variable "location" {
 
 variable "resource_group_name" {
   type    = string
-  default = "rg-techielass-dns"
+  default = "rg-techielass-env0"
 }
 
 variable "tag_environment" {
