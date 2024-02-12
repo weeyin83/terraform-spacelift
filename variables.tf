@@ -22,19 +22,3 @@ variable "tag_environment_name" {
   default = "learning"
 }
 
-
-variable "arm_client_id" {
-  type = string
-}
-
-variable "arm_client_secret" {
-  type = string
-}
-
-variable "arm_subscription_id" {
-  type = string
-}
-
-variable "arm_tenant_id" {
-  type = string
-}
